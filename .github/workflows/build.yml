@@ -57,7 +57,6 @@ jobs:
 
       - name: Configure poetry
         run: |
-          poetry config experimental.new-installer false
           poetry config virtualenvs.in-project true
 
       - name: Poetry Cache
