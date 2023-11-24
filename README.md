@@ -35,3 +35,9 @@ Run the newly created executable:
 ```
 ./build/dist/enopios
 ```
+
+## Additional Changes done:
+To package https://github.com/nagendra-y/streamlit-indictrans2  
+- Removed the TF dependency. It was causing a functools32 error similar to https://github.com/python-poetry/poetry/issues/1334
+- Update the app.py code
+- Change the poetry installation from using a https://github.com/snok/install-poetry workflow(which didn't work) into using `pip install poetry`  
