@@ -8,6 +8,18 @@ license = "Apache-2.0"
 [tool.poetry.dependencies]
 python = "^3.10"
 streamlit = "*"
+sacremoses = "*"
+pandas = "*"
+mock = "*"
+nltk = "*"
+sacrebleu = "*"
+mosestokenizer = "*"
+ctranslate2 = "*"
+sentencepiece = "*"
+indic_nlp_library="*"
+mammoth = "*" 
+python-docx = "*"
+pypdf2 = "*"
 
 [tool.poetry.dev-dependencies]
 pyoxidizer = "*"
