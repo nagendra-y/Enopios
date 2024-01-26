@@ -1,3 +1,9 @@
+## Talk:
+https://github.com/bangpypers/meetup-talks/issues/17
+Deploying a streamlit app as an executable
+
+I used and modified this starter repo
+
 # Enopios
 
 Install poetry, tested with poetry version `1.2.0rc2`.
